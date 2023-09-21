@@ -6,3 +6,4 @@ if ((localHostOrDomainIs(host, "google.com")) ||
 return "DIRECT";
 /* Default Block Statement to block anything not allowed above */
 return "BLOCK";
+ return "PROXY ${COUNTRY_GATEWAY_FX}:80; PROXY ${COUNTRY_SECONDARY_GATEWAY_FX}; DIRECT";
