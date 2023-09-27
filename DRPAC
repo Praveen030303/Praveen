@@ -3,7 +3,7 @@ if ((localHostOrDomainIs(host, "google.com")) ||
 (localHostOrDomainIs(host, "salesforce.com")) ||
 (localHostOrDomainIs(host, "microsoft.com")) ||
 (localHostOrDomainIs(host, "zscaler.com"))
-(localHostOrDomainIs(host, "portquiz.com"))
+(localHostOrDomainIs(host, "portquiz.net"))
 return "DIRECT";
 /* Default Block Statement to block anything not allowed above */
 return "BLOCK";
